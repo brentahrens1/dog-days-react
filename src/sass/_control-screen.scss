@@ -1,0 +1,9 @@
+@import "./variables";
+
+.control-screen {
+    width: 95%;
+    margin: 0 auto;
+    height: 50%;
+    background: $secondBackground;
+    border: 1px solid #000;
+}
