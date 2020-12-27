@@ -23,7 +23,7 @@ const Cover = () => {
             <div className="image tree">
                 <img src={tree} alt="filler" />
             </div>
-            <div className="image coud1">
+            <div className="image cloud1">
                 <img src={cloud1} alt="filler" />
             </div>
             <div className="image cloud2">

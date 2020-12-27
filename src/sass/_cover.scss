@@ -14,14 +14,49 @@
 
     .car {
         position: absolute;
-        bottom: 79.1%;
-        right: -30%;
+        bottom: 16%;
+        right: -28%;
     }
 
     .tree {
         position: absolute;
-        top: -2%;
+        top: -5%;
         left: -10%;
         mix-blend-mode: multiply;
+    }
+
+    .cloud1 {
+        width: 23%;
+        position: absolute;
+        top: 55%;
+        left: 10%;
+    }
+
+    .cloud2 {
+        width: 14%;
+        position: absolute;
+        top: 30%;
+        left: 16%;
+    }
+
+    .cloud3 {
+        width: 28%;
+        position: absolute;
+        top: 43%;
+        left: 10%;
+    }
+
+    .cloud4 {
+        width: 30%;
+        position: absolute;
+        top: 36%;
+        left: 36%;
+    }
+
+    .cloud5 {
+        width: 30%;
+        position: absolute;
+        top: 19%;
+        left: 44%;
     }
 }
