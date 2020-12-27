@@ -1,0 +1,27 @@
+@import "./variables";
+
+.cover {
+    width: 100%;
+    position: relative;
+
+    .image {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .car {
+        position: absolute;
+        bottom: 79.1%;
+        right: -30%;
+    }
+
+    .tree {
+        position: absolute;
+        top: -2%;
+        left: -10%;
+        mix-blend-mode: multiply;
+    }
+}

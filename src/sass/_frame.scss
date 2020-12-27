@@ -2,8 +2,26 @@
 
 .frame {
     width: 75%;
-    
-    img {
+    position: relative;
+    overflow: hidden;
+
+    &__cover {
         width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        
+        img {
+            width: 100%;
+        }
+    }
+    
+
+    &__cover-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
     }
 }
